@@ -10,7 +10,7 @@ public class EvenNumbersRunnable implements Runnable {
         Thread.sleep(1000);
       } catch (InterruptedException e) {
         System.out.println("EvenNumbersThread interrupted!");
-        break;
+        return;
       }
     }
   }

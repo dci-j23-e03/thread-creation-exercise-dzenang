@@ -10,7 +10,7 @@ public class OddNumbersThread extends Thread {
         Thread.sleep(1000);
       } catch (InterruptedException e) {
         System.out.println("OddNumbersThread interrupted!");
-        break;
+        return;
       }
     }
   }
